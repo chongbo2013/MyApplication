@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/guidemodel_backgroundbox"
+    android:paddingBottom="15.0dip"
+    android:layout_width="280.0dip"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:textSize="18.0sp"
+        android:textColor="@color/black_title"
+        android:gravity="left"
+        android:id="@+id/txt_tips"
+        android:paddingLeft="40.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.0dip"
+        android:text="@string/select_auto_launch_meizu_4x" />
+
+    <Button
+        android:textSize="16.0sp"
+        android:textColor="@color/guide_white"
+        android:gravity="center"
+        android:id="@id/btn_guide_confirm"
+        android:background="@drawable/guidemodel_confirm"
+        android:layout_width="200.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip"
+        android:text="@string/guide_confirm"
+        android:layout_below="@id/txt_tips"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

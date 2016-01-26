@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/btn_guide_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_guide_dev"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="15.0dip"
+            android:layout_width="match_parent"
+            android:layout_height="56.0dip"
+            android:layout_marginTop="65.0dip"
+            android:src="@drawable/guide_frame"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/img_guide_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60.0dip"
+            android:src="@drawable/guide_explain_down"
+            android:layout_below="@id/img_guide_dev" />
+
+        <TextView
+            android:textSize="18.0sp"
+            android:textColor="@color/guide_white"
+            android:id="@id/txt_guide_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="5.0dip"
+            android:text="@string/guide_open_dev_option"
+            android:layout_below="@id/img_guide_line" />
+
+        <ImageView
+            android:id="@+id/img_guide_sys"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="15.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="65.0dip"
+            android:layout_marginTop="198.0dip"
+            android:src="@drawable/guide_frame"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/img_guide_line2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60.0dip"
+            android:src="@drawable/guide_explain_down"
+            android:layout_below="@id/img_guide_sys" />
+
+        <TextView
+            android:textSize="18.0sp"
+            android:textColor="@color/guide_white"
+            android:id="@+id/txt_guide_desc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="5.0dip"
+            android:text="@string/guide_open_direct_enter_system"
+            android:layout_below="@id/img_guide_line2" />
+
+        <TextView
+            android:id="@+id/txt_guide_desc3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_guide_desc2"
+            android:layout_marginTop="20.0dip"
+            android:text="@string/guid_setting_warn1"
+            android:textColor="@color/guide_white"
+            android:textSize="15.0sp" />
+
+    </RelativeLayout>
+</RelativeLayout>

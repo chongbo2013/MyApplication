@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaeaea"
+    >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/top_view"></LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guide_mobile_manger_tvshow"
+        android:id="@+id/guide_mobile_manger_tvshow"
+        android:gravity="center"
+        android:layout_below="@+id/top_view"
+        android:layout_margin="10dip"
+        android:textColor="@color/black_title"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:layout_below="@+id/guide_mobile_manger_tvshow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#fffafafa"
+        android:background="#eaeaea"
+        android:divider="#ffffff"
+        android:listSelector="#fffafafa"
+        android:id="@+id/setting_mobile_manger_listView"
+         />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280.0dip"
+    android:layout_height="wrap_content"
+    android:background="@drawable/guidemodel_backgroundbox"
+    android:paddingBottom="15.0dip">
+
+    <TextView
+        android:id="@+id/txt_tips"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.0dip"
+        android:gravity="center_horizontal"
+        android:text="@string/guide_none_locker_oppo_x9007"
+        android:textColor="@color/black_title"
+        android:textSize="18.0sp" />
+
+    <Button
+        android:id="@+id/btn_guide_confirm"
+        android:layout_width="200.0dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_tips"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20.0dip"
+        android:background="@drawable/guidemodel_confirm"
+        android:gravity="center"
+        android:text="@string/guide_confirm"
+        android:textColor="@color/guide_white"
+        android:textSize="16.0sp" />
+</RelativeLayout>

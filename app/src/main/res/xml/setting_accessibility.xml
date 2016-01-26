@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service android:description="@string/setting_service_description" 
+android:accessibilityEventTypes="typeAllMask" 
+android:packageNames="com.meizu.safe,com.huawei.systemmanager,com.iqoo.secure,com.oppo.safe,com.android.settings,com.baidu.appsearch,com.ijinshan.kbatterydoctor,com.iqoo.secure,com.lbe.security,com.mediatek.security,com.moxiu.launcher,com.oppo.secure,com.qihoo.cleandroid_cn,com.qihoo360.mobilesafe,com.tencent.qqpimsecure"
+android:accessibilityFeedbackType="feedbackGeneric"
+android:notificationTimeout="1"
+android:accessibilityFlags="flagDefault" 
+android:canRetrieveWindowContent="true"
+xmlns:android="http://schemas.android.com/apk/res/android" />

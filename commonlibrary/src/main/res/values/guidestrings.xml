@@ -1,0 +1,67 @@
+<resources>
+    <string name="guidemodel_homelocked_step_1">第一步</string>
+    <string name="guidemodel_home_step_2">第二步:</string>
+    <string name="guidemodel_Alert_show_info">显示信息</string>
+    <string name="guidemodel_home_title">如果按Home键会直接解锁，请执行以下2步:</string>
+
+    <string name="Alert_unchoose">未选择</string>
+    <string name="home_btn_clear">清除默认设置</string>
+    <string name="home_txt_clear_tip">清除当前的默认启动器设置</string>
+    <string name="home_btn_lock">锁定Home键</string>
+    <string name="home_btn_lock_true">锁定Home键</string>
+    <string name="home_txt_lock_tip">把天天锁屏设为默认启动器</string>
+    <string name="home_txt_select">我们还发现您还安装了其他桌面启动器，请选择解锁后您要使用的启动器</string>
+    <string name="home_btn_select">未选择</string>
+    <string name="home_dialog_select">请选择您要使用的桌面</string>
+    <string name="home_">防止点击Home键直接解锁</string>
+    <string name="setting_initsetting_tips">初始设置</string>
+    <string name="setting_initsetting_info">绑定HOME键设置，以及机型适配</string>
+
+    <!-- HOME LOCKED HELP -->
+    <string name="homelock_help_not_use_our">在接下来的界面中，勾选默认使用此方式发送，并选择天天锁屏</string>
+    <string name="homelock_help_use_our">在接下来的界面中，点击清除默认设置的按钮</string>
+    <string name="homelock_help_btn_next">继续</string>
+    <string name="homelock_help_btn_cancel">取消</string>
+    <string name="home_img_tips">使用以下内容完成操作</string>
+    <string name="home_img_bottom">默认用于执行此操作</string>
+    <string name="home_img_example1">XX Launcher</string>
+    <string name="home_img_example2">Launcher</string>
+    <string name="home_use_tip_up">缓存</string>
+    <string name="home_use_tip_up_size">0.00B</string>
+    <string name="home_use_tip_up_clear">清除缓存</string>
+    <string name="home_use_tip_center">默认情况下启动</string>
+    <string name="home_use_tip_center_info">您已选择默认情况下启动此应用程序以执行某些操作。</string>
+    <string name="home_use_tip_center_clear">清除默认值</string>
+    <string name="home_use_tip_down">权限</string>
+    <string name="guide_tip">提示</string>
+
+
+    <string name="guide_open_auto_run">"开启「我信任该程序」和「自动启动」开关"</string>
+    <string name="guide_open_dev_option">开启「开发者选项」开关</string>
+    <string name="guide_open_direct_enter_system">开启「直接进入系统」开关</string>
+    <string name="guide_open_direct_enter_system_oppou750t">开启「关闭」停用屏幕解锁保护 开关</string>
+    <string name="guide_open_float_window">开启「显示悬浮窗」开关</string>
+    <string name="guide_miui_special_float_window_title">开启显示悬浮窗</string>
+    <string name="guide_miui_special_no_locker">请按照以下方式关闭系统锁屏</string>
+    <string name="guide_none_locker">请选择「无」模式</string>
+    <string name="guide_none_locker_huawei">请选择「不锁屏」模式</string>
+    <string name="guide_none_locker_oppo_x9007">请选择「无锁屏」模式</string>
+    <string name="guide_none_locker_slide">请选择「滑动」模式</string>
+    <string name="guide_none_locker_meizu">"1、点击 [密码锁定] \n2、输入密码 \n3、取消[屏幕锁定]\n4、关闭 [密码锁定]"</string>
+    <string name="guide_confirm">我知道了</string>
+    <string name="guid_setting_ui_tilte_default">进行以下设置，有助于「天天锁屏」完美运行在你的手机上</string>
+    <string name="guid_setting_warn1">「天天锁屏」已经经过测试，不会引起您的设备以及设备上应用的问题</string>
+
+    <string name="select_auto_launch_huawei">请选择「天天锁屏」并打勾</string>
+    <string name="select_auto_launch_meizu_3x">"1、点击 [自动启动] \n2、选择「天天锁屏」并打勾 \n3、关闭[自动启动]"</string>
+    <string name="select_auto_launch_meizu_4x">"1、选择「自启动」并打勾"</string>
+    <string name="select_show_toast_miui">"1、点击 [自定义通知] \n2、打开「在通知栏中显示」开关 \n3、关闭[应用信息]"</string>
+    <string name="guid_setting_windows_showtoast_oppo">请打开「允许通知」开关</string>
+    <string name="guid_setting_windows_showtoast_meizu3">请打开「允许推送消息」开关</string>
+    <string name="guid_setting_windows_showtoast_meizu4">请打开「通知栏消息」和「弹框消息」开关</string>
+    <string name="guid_setting_windows_showtoast_normal">请在「显示通知」前面打勾</string>
+    <string name="guide_mobile_manger">手机管家适配</string>
+    <string name="guide_mobile_manger_tvshow">点击对应图标可以查看相应管家软件的设置教程</string>
+
+    <string name="guide_show_window_manager">请打开「显示悬浮窗」开关</string>
+</resources>
