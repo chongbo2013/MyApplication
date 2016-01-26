@@ -26,6 +26,9 @@ public class FirstActivity extends Activity {
     private Button white_list;
     private int index = 0;
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
